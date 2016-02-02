@@ -19,19 +19,6 @@ server.route({
     }
 });
 
-server.route({
-    method: 'GET',
-    path:'/sdghack',
-     handler: function (request, reply) {
-// how to get the routes going - seperate
-        sdghack();
-
-         return reply ('aaa');
-     }
-
-});
-
-
 // Start the server
 server.start((err) => {
 
