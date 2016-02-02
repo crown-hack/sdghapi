@@ -1,7 +1,7 @@
-const Hapi = require('hapi');
+var Hapi = require('hapi');
 
 // Create a server with a host and port
-const server = new Hapi.Server();
+var server = new Hapi.Server();
 server.connection({
     host: 'localhost',
     port: 8000

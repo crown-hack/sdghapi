@@ -18,5 +18,9 @@
   "homepage": "https://github.com/crown-hack/sdghapi#readme",
   "dependencies": {
     "hapi": "^13.0.0"
+  },
+  "engines": {
+    "node": "0.12.7",
+    "npm": "2.7.4"
   }
 }
