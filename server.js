@@ -1,5 +1,11 @@
 var Hapi = require('hapi');
 
+var host = (process.env.VCAP_APP_HOST || 'localhost');
+// The port on the DEA for communication with the application:
+var port = (process.env.VCAP_APP_PORT || 3000);
+
+
+
 // Create a server with a host and port
 var server = new Hapi.Server();
 server.connection({
@@ -18,10 +24,5 @@ server.route({
 });
 
 // Start the server
-server.start((err) => {
-
-    if (err) {
-        throw err;
-    }
-    console.log('Server running at:', server.info.uri);
-});
+// Start the server
+server.start();
