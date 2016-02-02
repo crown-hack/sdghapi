@@ -1,0 +1,3 @@
+applications:
+- name: sdghack
+  command: node server.js

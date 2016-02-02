@@ -1,5 +1,3 @@
-'use strict';
-
 const Hapi = require('hapi');
 
 // Create a server with a host and port
