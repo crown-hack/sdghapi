@@ -1,3 +1,4 @@
 applications:
 - name: sdghack
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   command: node server.js
