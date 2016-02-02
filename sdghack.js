@@ -1,4 +1,9 @@
-function sdghack () {
-console.log('fred');
-//        return reply('Welcome to Software Dev Hack Day..!');
-};
+server.route({
+  method: 'GET',
+  path: '/sdghack',
+  handler: function(request, reply) {
+
+    return reply('Welcome to Software Dev Hack Day...');
+    }
+
+});
