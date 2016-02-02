@@ -1,3 +1,5 @@
+"use strict"
+
 var Hapi = require('hapi');
 
 var host = (process.env.VCAP_APP_HOST || 'localhost');
