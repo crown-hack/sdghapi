@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/crown-hack/sdghapi#readme",
   "dependencies": {
+    "cfenv": "^1.0.3",
     "hapi": "^13.0.0"
   },
   "engines": {
-    "node": "0.12.7",
-    "npm": "2.7.4"
+    "node": "5.5.0",
+    "npm": "2.14.7"
   }
 }

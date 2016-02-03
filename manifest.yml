@@ -1,4 +1,5 @@
 applications:
 - name: sdghack
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 512M
   command: node server.js
