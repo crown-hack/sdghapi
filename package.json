@@ -18,7 +18,8 @@
   "homepage": "https://github.com/crown-hack/sdghapi#readme",
   "dependencies": {
     "cfenv": "^1.0.3",
-    "hapi": "^13.0.0"
+    "hapi": "^13.0.0",
+    "joi": "^7.2.3"
   },
   "engines": {
     "node": "5.5.0",
